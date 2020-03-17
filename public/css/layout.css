@@ -205,10 +205,27 @@ ul#nav li.current a { color: #F06000; }
    line-height: 30px;
    color: #7A7A7A;
 }
+
+#about .pic-cont {
+   position: relative;
+   min-height: 1px;
+   float: left;
+}
+
+#about .pic-border{
+   width: 206px;
+   height: 206px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #27B7E4;
+   border-radius: 50%;
+}
+
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
