@@ -34,7 +34,7 @@
    }
    header .banner-text h3 {
       font: 17px/1.9em 'librebaskerville-regular', serif;
-      width: 80%;
+      width: 100%;
    }
    header .banner-text hr {
       width: 65%;
@@ -46,6 +46,11 @@
       letter-spacing: 1.5px;
    }
 
+   .descr-wrapper {
+      padding: 15px;
+      width: 85%;
+      margin: auto;
+   }
 
    /* About Section
    ------------------------------------------------------------------- */
@@ -206,7 +211,7 @@
    header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
-      width: 85%;
+      width: 100%;
    }
    header .banner-text hr {
       width: 80%;
@@ -224,6 +229,12 @@
     /* scrolldown link */
    header .scrolldown { display: none; }
 
+   .descr-wrapper {
+      width: 100%;
+      border-radius: 15px;
+      padding: 15px 15px;
+      margin: 0px;
+   }
 
    /* About Section
    -------------------------------------------------------------------- */
@@ -368,7 +379,7 @@
    }
    header .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-      width: 90%;
+      width: 100%;
    }
   
    /* header social links */
