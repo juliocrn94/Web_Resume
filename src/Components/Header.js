@@ -16,7 +16,7 @@ class Header extends Component {
       var description= this.props.data.description;
       var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url} target="_blank"><FontAwesomeIcon className={network.className} icon={network.icon} /></a></li>
+        return <li key={network.name}><a href={network.url} target="_blank"><FontAwesomeIcon className={network.className} icon={network.icon} size="lg" /></a></li>
       })
     }
 
@@ -46,12 +46,6 @@ class Header extends Component {
             <hr />
             <ul className="social">
                {networks}
-            </ul>
-            <ul className="social">
-               <FontAwesomeIcon className="header-icon" icon={["fab","whatsapp"]} />
-               <FontAwesomeIcon className="header-icon" icon={"envelope-square"} />
-               <FontAwesomeIcon className="header-icon" icon={["fab","linkedin-in"]} />
-               <FontAwesomeIcon className="header-icon" icon={["fab","github"]} />
             </ul>
          </div>
       </div>
