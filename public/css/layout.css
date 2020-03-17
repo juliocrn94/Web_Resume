@@ -284,9 +284,14 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+
+.work-descr {
+   margin-bottom: 5px;
+}
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #2E363C;
    margin-bottom: 18px;
    margin-top: 9px;
 }
