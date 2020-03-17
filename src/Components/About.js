@@ -46,7 +46,7 @@ class About extends Component {
 						   <span>{city},
 						         {state}
                    </span><br />
-						   <span>{phone}</span><br />
+						   <a href="http://bit.ly/33eNmmX" target="_blank"><span>{phone}</span><br /></a>
                      <span>{email}</span><br />
                      <span>{linkedin}</span><br />
                      <span>{github}</span>
