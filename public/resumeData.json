@@ -25,39 +25,28 @@
     "resumedownload":"https://drive.google.com/file/d/15HhFXdDpwmdq1yVvbQKBtL0vB7MMdP3T/view?usp=sharing",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
+        "name":"whatsapp",
+        "url":"http://bit.ly/33eNmmX",
+        "icon":["fab","whatsapp"],
+        "className":"header-icon"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
+        "name":"mail",
+        "url":"mailto:juliocrn94@gmail.com?Subject=Hello%20Julio!",
+        "icon":["fas","envelope-square"],
+        "className":"header-icon"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
+        "url":"http://bit.ly/2Q8bceW",
+        "icon":["fab","linkedin-in"],
+        "className":"header-icon"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
-        "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
+        "url":"http://bit.ly/38IBjj9",
+        "icon":["fab","github"],
+        "className":"header-icon"
       }
     ]
   },
