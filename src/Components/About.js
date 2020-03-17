@@ -47,9 +47,9 @@ class About extends Component {
 						         {state}
                    </span><br />
 						   <a href="http://bit.ly/33eNmmX" target="_blank"><span>{phone}</span><br /></a>
-                     <span>{email}</span><br />
-                     <span>{linkedin}</span><br />
-                     <span>{github}</span>
+						   <a href="#contact" target="_blank"><span>{email}</span><br /></a>
+						   <a href="http://bit.ly/2Q8bceW" target="_blank"><span>{linkedin}</span><br /></a>
+						   <a href="http://bit.ly/38IBjj9" target="_blank"><span>{github}</span></a>
 					   </p>
                </div>
                <div className="columns download">
