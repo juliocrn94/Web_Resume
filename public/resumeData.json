@@ -1,21 +1,28 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Julio Cesar Renteria",
+    "occupation":"Chemical Engineer | Data Analyst",
+    "description":"Experienced in Management, Inbound & Outbound Logistics, Inventory Control, and Quality Assurance. Proficient skills in automating processes, developing talent and complex problem-solving",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    
+    "bio":"Chemical Engineer & Data Analyst with experience in Management, Inbound & Outbound Logistics, Inventory Control, and Quality Assurance. Proficient skills in automating processes, developing talent and complex problem-solving.",
+    "bio2":"I believe in building innovative customer-centric processes to create true value, a customer being anyone who is affected or participates in the production of a good or service. All while maintaining high-quality standards.",
+    "bio3":"Learning and Deep Diving is my superpower, I’m always curious about new possibilities and eager to explore them.",
+    "bio4":"I'm extremely passionate about Tech, Business and Industry 4.0, my professional purpose is to be part of a growing tech company open to innovation where I can apply my knowledge and ideas for processes or project launches. Always looking to learn and grow as a leader.",
+
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "juliocrn94@gmail.com",
+    "linkedin": "linkedin.com/in/julio-renteria",
+    "github": "github.com/juliocrn94",
+    "phone": "+52 5544644944",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"QUITAR",
+      "city":"Mexico City",
+      "state":" Mexico",
+      "zip": "QUITAR"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.juliorenteria.com",
+    "resumedownload":"https://drive.google.com/file/d/15HhFXdDpwmdq1yVvbQKBtL0vB7MMdP3T/view?usp=sharing",
     "social":[
       {
         "name":"facebook",

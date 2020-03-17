@@ -49,11 +49,23 @@
 
    /* About Section
    ------------------------------------------------------------------- */
-   #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
+   #about .pic-border{
+      width: 154px;
+      height: 154px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #27B7E4;
+      border-radius: 50%;
+      margin-left: 6px;
    }
+
+   #about .profile-pic {
+      width: 150px;
+      height: 150px;
+      /* margin-left: 5px; */
+   }
+
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
 
@@ -215,7 +227,7 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .pic-border { display: none; }
    #about .download .button {
       width: 100%;
       text-align: center;
