@@ -68,8 +68,8 @@ header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
    color: rgb(236, 239, 243);
    margin: 0 auto;
-   width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   width: 80%;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -181,6 +181,19 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
+
+
+/* c. Descritption
+/* ------------------------------------------------------------------ */
+
+.descr-wrapper {
+   background-color: rgba(46, 54, 60, .5);
+   border-radius: 20px;
+   padding: 15px;
+   margin: 0px 49px;
+}
+
+
 
 
 /* ------------------------------------------------------------------ */
