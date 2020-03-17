@@ -25,39 +25,28 @@
     "resumedownload":"https://drive.google.com/file/d/15HhFXdDpwmdq1yVvbQKBtL0vB7MMdP3T/view?usp=sharing",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
+        "name":"whatsapp",
+        "url":"http://bit.ly/33eNmmX",
+        "icon":["fab","whatsapp"],
+        "className":"header-icon"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
+        "name":"mail",
+        "url":"mailto:juliocrn94@gmail.com?Subject=Hello%20Julio!",
+        "icon":["fas","envelope-square"],
+        "className":"header-icon"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
+        "url":"http://bit.ly/2Q8bceW",
+        "icon":["fab","linkedin-in"],
+        "className":"header-icon"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
-        "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
+        "url":"http://bit.ly/38IBjj9",
+        "icon":["fab","github"],
+        "className":"header-icon"
       }
     ]
   },
@@ -65,30 +54,38 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Ironhack",
+        "degree":"Data Analyst Bootcamp",
+        "graduated":"2020",
+        "description":"Intensive 9 week course in Data Analytics"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Monterrey Institute of Technology and Higher Education",
+        "degree":"Chemical Engineer",
+        "graduated":"2017",
+        "description":"Minor in Administration."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"AMAZON",
+        "title":"Quality Assurance & Inventory Control - Area Manager",
+        "years":"Oct 2017 - June 2019",
+        "description":"Supervised a group of 30 associates on 3 shifts.",
+        "description2":"Oversaw the inventory control operation. Including inventory count labor, inventory recording and  management.",
+        "description3":"Solving multi-area problems that compromised the inventory or process' quality.",
+        "description4":"Work with other areas in order to implement new processes. ",
+        "description5":"Monitored daily, weekly and monthly KPIs and analysis to identify opportunities for improvement. ",
+        "description6":"Assisting in the development of policies, processes, and standards"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"PointVerde",
+        "title":"Engineer Internship",
+        "years":"Apr 2016 - Sep 2016",
+        "description":"Energy consumption management for physical retal, hospitality, medical, and entertainment establishments.",
+        "description2":"Energy savings Data Analysis and Forecast.",
+        "description3":"Developing strategies to reduce energy consumption.",
+        "description4":"Researching new technologies to streamline the energy-saving process."
       }
     ],
     "skills":[

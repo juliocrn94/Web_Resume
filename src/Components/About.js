@@ -46,15 +46,15 @@ class About extends Component {
 						   <span>{city},
 						         {state}
                    </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span><br />
-                     <span>{linkedin}</span><br />
-                     <span>{github}</span>
+						   <a href="http://bit.ly/33eNmmX" target="_blank"><span>{phone}</span><br /></a>
+						   <a href="#contact" target="_blank"><span>{email}</span><br /></a>
+						   <a href="http://bit.ly/2Q8bceW" target="_blank"><span>{linkedin}</span><br /></a>
+						   <a href="http://bit.ly/38IBjj9" target="_blank"><span>{github}</span></a>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} target="_blank" className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
