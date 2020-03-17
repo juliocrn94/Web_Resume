@@ -7,6 +7,9 @@ class About extends Component {
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
+      var bio2 = this.props.data.bio2;
+      var bio3 = this.props.data.bio3;
+      var bio4 = this.props.data.bio4;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
@@ -14,6 +17,10 @@ class About extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
+
+      var linkedin = this.props.data.linkedin
+      var github = this.props.data.github
+
     }
 
     return (
@@ -28,16 +35,21 @@ class About extends Component {
             <h2>About Me</h2>
 
             <p>{bio}</p>
+            <p>{bio2}</p>
+            <p>{bio3}</p>
+            <p>{bio4}</p>
             <div className="row">
                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>Talk To Me!</h2>
                   <p className="address">
 						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
+						   <span>{city},
+						         {state}
                    </span><br />
 						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     <span>{email}</span><br />
+                     <span>{linkedin}</span><br />
+                     <span>{github}</span>
 					   </p>
                </div>
                <div className="columns download">
