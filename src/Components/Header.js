@@ -39,6 +39,7 @@ class Header extends Component {
             <hr />
             <ul className="social">
                {networks}
+               <li><i class="fab fa-whatsapp"></i></li>
             </ul>
          </div>
       </div>
