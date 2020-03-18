@@ -77,7 +77,15 @@
    /* Resume Section
    ------------------------------------------------------------------- */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #resume .main-col { padding-right: 5%; }   
+   #resume .main-col { padding-right: 5%; }
+
+   .skills-table {
+      margin-right: 20px;
+   }
+
+   .h-sk-t, .s-sk-t, .lang-t {
+      margin-right: 0em;
+   }
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
@@ -260,6 +268,40 @@
       
    .bars { width: 100%; }
 
+   .skills-table {
+      margin-left: 1em;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 3em auto 3em auto 3em auto;
+      grid-template-areas: 
+      "h-sk-t"
+      "h-sk"
+      "s-sk-t"
+      "s-sk"
+      "lang-t"
+      "lang";
+   }
+
+   .h-sk-t, .s-sk-t, .lang-t {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   
+   .h-sk, .s-sk, .lang {
+      margin-bottom: 1em;
+   }
+   
+   .skill-el {
+      text-align: center;
+      font-size: 1em;
+      line-height: 1.6;
+   }
+
+   .skill-line {
+      border-right: none;
+      border-bottom: 3px solid #27B7E4;
+   }
 
    /* Call To Action Section
    /* ----------------------------------------------------------------- */

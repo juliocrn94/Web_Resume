@@ -51,7 +51,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
         "school":"Ironhack",
@@ -123,7 +123,31 @@
         "name":"MongoDB",
         "level":"80%"
       }
-    ]
+    ],
+    "skills2": {
+      "hardskills":[
+        {"name":"Quality Assurance"},
+        {"name":"Implementing New Processes"},
+        {"name":"Data Analytics"},
+        {"name":"Python"},
+        {"name":"SQL & noSQL db"},
+        {"name":"Machine Learning"},
+        {"name":"Excel - Advanced"}
+      ],
+      "softskills":[
+        {"name":"Complex Problem-Solving"},
+        {"name":"Deep Diving"},
+        {"name":"Developing Talent"},
+        {"name":"Fast Learner"},
+        {"name":"Earn Trust"}
+      ],
+      "languages":[
+        {"name":"SPANISH",
+        "level":"Native"},
+        {"name":"ENGLISH",
+        "level":"Fluent"}
+      ]
+    }
   },
   "portfolio":{
     "projects": [

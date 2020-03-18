@@ -25,6 +25,20 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+
+      var hardskills = this.props.data.skills2.hardskills.map(function(hardskills){
+        var className = "skill-el";
+        return <p className={className}><span>{hardskills.name}</span></p>
+      })
+      var softskills = this.props.data.skills2.softskills.map(function(softskills){
+        var className = "skill-el";
+        return <p className={className}><span>{softskills.name}</span></p>
+      })
+      var languages = this.props.data.skills2.languages.map(function(languages){
+        var className = "skill-el";
+        return <p className={className}><span>{languages.name}</span>{' - '+languages.level}</p>
+      })
+
     }
 
     return (
@@ -57,6 +71,8 @@ class Resume extends Component {
       </div>
 
       {/* Skills Section */}
+      
+      {/* Skill Bars
       <div className="row skill">
 
          <div className="three columns header-col">
@@ -65,16 +81,51 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
 
-            <p>{skillmessage}
-            </p>
+            <p>{skillmessage}</p>
 
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+          <div className="bars">
+            <ul className="skills">
+              {skills}
+            </ul>
+          </div>
+        </div>
       </div>
+         */}
+        
+      <div className="row skills">
+        <div className="three columns header-col">
+          <h1><span>Skills</span></h1>
+        </div>
+
+        <div className="skills-table">
+
+          <div className="h-sk-t">
+            Professional
+          </div>
+          <div className="h-sk skill-line">
+            {hardskills}
+          </div>
+          
+
+          <div className="s-sk-t">
+            Personal
+          </div>
+          <div className="s-sk skill-line">
+            {softskills}
+          </div>
+
+          
+          <div className="lang-t">
+            Languages
+          </div>
+          <div className="lang">
+            {languages}
+          </div>
+         
+        </div>
+      </div>
+
+
    </section>
     );
   }
