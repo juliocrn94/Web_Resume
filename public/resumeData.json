@@ -64,6 +64,12 @@
         "degree":"Chemical Engineer",
         "graduated":"2017",
         "description":"Minor in Administration."
+      },
+      {
+        "school":"University of Sydney",
+        "degree":"Bachelor of Engineering Honours (Chemical)",
+        "graduated":"2015",
+        "description":"Semester abroad in Sydney, Australia"
       }
     ],
     "work":[
