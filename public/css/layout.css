@@ -880,7 +880,7 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #FFFFFF;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -912,7 +912,8 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 2em/36px 'opensans-light', sans-serif;
+   color: #FFFFFF;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
@@ -951,7 +952,7 @@ call-to-action .button {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-   background: #27B7E4;
+   background: #F06000;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -964,7 +965,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #27B7E4;
+	color: #F06000;
 	font-size: 13px;
 }
 #message-warning, #message-success {

@@ -10,7 +10,7 @@
     "bio3":"Learning and Deep Diving is my superpower, I’m always curious about new possibilities and eager to explore them.",
     "bio4":"I'm extremely passionate about Tech, Business and Industry 4.0, my professional purpose is to be part of a growing tech company open to innovation where I can apply my knowledge and ideas for processes or project launches. Always looking to learn and grow as a leader.",
 
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"I'm always open to new proyects. Lets work together! Leave a message:",
     "email": "juliocrn94@gmail.com",
     "linkedin": "linkedin.com/in/julio-renteria",
     "github": "github.com/juliocrn94",
@@ -162,12 +162,12 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"Julio has the superpower of being a fast learner, he could dive into a problem by himself and find solutions for peculiar situations. Julio is also a problem solver who provided full support to the Outbound team during the peak season, teaching and coaching associates and managers.",
+        "user":"Manager at AMAZON"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"Julio is someone highly committed to their work that has obtained the necessary character to “fight” for the objectives of his department.",
+        "user":"Colleague at AMAZON"
       }
     ]
   }
