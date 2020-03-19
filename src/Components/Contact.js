@@ -82,9 +82,14 @@ class Contact extends Component {
 
                      <div>
                         <button className="submit">Submit</button>
+
                      </div>
                   </fieldset>
                   </form>
+
+               <div id="message-warning"> Error boy</div>
+               </div>
+
 
                <aside className="four columns footer-widgets">
                   <div className="widget widget_contact">
@@ -104,6 +109,6 @@ class Contact extends Component {
       </section>
       );
    }
-}
+   }
 
 export default Contact;
