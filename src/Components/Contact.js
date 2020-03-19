@@ -42,11 +42,11 @@ class Contact extends Component {
       
       return (
          <section id="contact">
-
+            
             <div className="row section-head">
 
                <div className="two columns header-col">
-
+                  <p>Not configured Yed</p>
                   <h1><span>Get In Touch.</span></h1>
 
                </div>
