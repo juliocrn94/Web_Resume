@@ -104,6 +104,6 @@ class Contact extends Component {
       </section>
       );
    }
-   }
+}
 
 export default Contact;
