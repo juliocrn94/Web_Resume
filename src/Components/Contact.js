@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 
-const encode = (data) => {
-   return Object.keys(data)
-       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-       .join("&");
- }
-
-class Contact extends Component {
-  
-  
+class Contact extends Component {  
    constructor(props) {
       super(props);
       this.state = { name2: "", email2: "", message2: "" };
@@ -16,15 +8,8 @@ class Contact extends Component {
     }
 
       handleSubmit = e => {
-         fetch("/", {
-         method: "POST",
-         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-         body: encode({ "form-name": "contact", ...this.state })
-         })
-         .then(() => alert("Success!"))
-         .catch(error => alert(error));
-
-         e.preventDefault();
+         let url = "https://api.whatsapp.com/send?phone=+525544644944&text=*_Nombre:" + this.state.name2 + "%0A*Mail:*%0A" + this.state.email2 + "%0A*Message:*%0A" + this.mail.message2;
+         window.open(url);
       };
 
       handleChange = e => this.setState({ [e.target.name]: e.target.value });
@@ -80,7 +65,7 @@ class Contact extends Component {
                      </div>
 
                      <div>
-                        <button className="submit">Submit</button>
+                        <button className="submit">Send WhatsApp</button>
 
                      </div>
                   </fieldset>
