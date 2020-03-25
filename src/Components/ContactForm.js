@@ -32,7 +32,7 @@ class ContactForm extends Component {
     render() {
         const { name, email, message } = this.state;
         return (
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} netlify>
             <p>
             <label>
                 Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
