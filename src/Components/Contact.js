@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 
-class Contact extends Component {  
+
+class Contact extends Component {  mit
    constructor(props) {
       super(props);
-      this.state = { name2: "", email2: "", message2: "" };
-      
+      this.state = { name2: "", email2: "", message2: "", url: ""};
+   
     }
 
       handleSubmit = e => {
-         let url = "https://api.whatsapp.com/send?phone=+525544644944&text=*_Nombre:" + this.state.name2 + "%0A*Mail:*%0A" + this.state.email2 + "%0A*Message:*%0A" + this.mail.message2;
-         window.open(url);
+
+         // let url = "https://api.whatsapp.com/send?phone=+525544644944&text=*_Nombre: _*" + this.state.name2 + "%0A*Mail: *%0A" + this.state.email2 + "%0A*Message: *%0A" + this.mail.message2;
+         window.open(this.state.url);
       };
 
-      handleChange = e => this.setState({ [e.target.name]: e.target.value });
+      handleChange = e => this.setState({ [e.target.name]: e.target.value , url: "https://api.whatsapp.com/send?phone=+525544644944&text=*Nombre:* " + this.state.name2 + "%0A*Mail:*%0A " + this.state.email2 + "%0A*Message:*%0A " + this.state.message2});
   
    render() {
    
@@ -46,7 +48,7 @@ class Contact extends Component {
             <div className="row">
                <div className="eight columns">
 
-                  <form name="contact" method="POST" id="contactForm" onSubmit={this.handleSubmit}>
+                  <form name="contact" id="contactForm" >
                   <fieldset>
 
                      <div>
@@ -65,7 +67,7 @@ class Contact extends Component {
                      </div>
 
                      <div>
-                        <button className="submit">Send WhatsApp</button>
+                        <button className="submit" onClick={this.handleSubmit}>Send WhatsApp</button>
 
                      </div>
                   </fieldset>
