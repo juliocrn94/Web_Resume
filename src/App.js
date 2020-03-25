@@ -9,6 +9,7 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
+import ContactForm from './Components/ContactForm';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -59,6 +60,7 @@ class App extends Component {
         <Testimonials data={this.state.resumeData.testimonials}/>
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
+        <ContactForm />
       </div>
     );
   }
